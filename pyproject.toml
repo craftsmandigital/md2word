@@ -1,0 +1,16 @@
+[project]
+name = "md2word"
+version = "0.1.0"
+description = "Convert Markdown in JSON to Word Subdocuments"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "docxtpl",
+    "pypandoc-binary",
+    "docxcompose",
+    "setuptools<70.0.0", 
+
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
