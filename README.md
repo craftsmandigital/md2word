@@ -112,6 +112,7 @@ Check the **[examples/](examples/)** folder to see:
 
 1. **`demo.py`**: A script showing how to structure data.
 2. **`template_m2word.docx`**: A reference Word template showing how to set up headers, tables, and loops.
+3. **`output.docx`**: Finished word file that is the output from the python script.
 
 To run the example locally:
 
